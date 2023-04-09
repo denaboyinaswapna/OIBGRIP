@@ -1,0 +1,150 @@
+body{
+    background-image: url('https://wallpaperaccess.com/full/2317539.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    backdrop-filter: blur(1px);
+    height: 100vh;
+    width: 100%;
+}
+.home{
+    background-color: white;
+    border: 2px solid black;
+    padding: 6px 12px;
+    font-size: 16px;
+    cursor:pointer;
+    border-color: green;
+    color: black;
+}
+.home:hover{
+    background-color: green;
+    color: white;
+}
+.category{
+    background-color: white;
+    border: 2px solid black;
+    padding: 6px 12px;
+    font-size: 16px;
+    cursor: pointer;
+    border-color: green;
+    color: black;
+}
+.category:hover{
+    background-color: green;
+    color: white;
+}
+.about{
+    background-color: white;
+    border: 2px solid black;
+    padding: 6px 12px;
+    font-size: 16px;
+    cursor:pointer;
+    border-color: green;
+    color: black;
+}
+.about:hover{
+    background-color: green;
+    color: white;
+}
+.help{
+    background-color: white;
+    border: 2px solid black;
+    padding: 6px 12px;
+    font-size: 16px;
+    cursor:pointer;
+    border-color: green;
+    color: black;
+}
+.help:hover{
+    background-color: green;
+    color: white;
+}
+.home{
+    position:absolute;
+    top: 0;
+    right: 0;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+.category{
+    position:absolute;
+    top:0;
+    right: 0;
+    margin-top: 30px;
+    margin-right: 120px;
+}
+.about{
+    position:absolute;
+    top: 0;
+    right: 0;
+    margin-top: 30px;
+    margin-right:240px ;
+ }
+ .help{
+    position:absolute;
+    top: 0;
+    right: 0;
+    margin-top: 30px;
+    margin-right: 340px;
+ }
+ .search{
+    position:absolute;
+    top: -9px;
+    left: 120px;
+    margin-top: 36px;
+    margin-right: 1000px;
+    border: 1px solid black;
+    padding: 6px;
+    font-size: 17px;
+    border: none;
+    float: right;
+    cursor: pointer;
+ }
+ .heading{
+    position: relative;
+    left: 70px;
+    top: 100px;
+    color: green;
+ }
+ div.para{
+    position: absolute;
+    left: 5px;
+    top: 50px;
+    color: gray;
+    width: 360px;
+    height: 300px;
+ }
+ .submit{
+    position: relative;
+    left: 170px;
+    top: 250px;
+    color: white;
+    border-radius: 12px;
+    text-align: center;
+    background-color: forestgreen;
+    border: none;
+    padding: 20px;
+    font-size: 16px;
+ }
+ .icon{
+   width: 40px;
+   display: block;
+   margin: 40px auto;
+   border: 2px solid green;
+   padding: 4px 4px;
+   position: absolute;
+   left: 10px;
+   top: -25px;
+}
+.icon div{
+    height: 5px;
+    background: black;
+    margin: 7px 0px 7px 0px;
+    border-radius: 25px;
+    transition: all 0.5s;
+   -webkit-transition: all 0.5s; 
+}
+.two { width: 15px; }
+.three { width: 30px;}
+.icon:hover div { width: 40px;}
+
